@@ -25,6 +25,11 @@ export default {
     lang: SITE_INFO.sitelang || 'en-US'
   },
   /*
+   ** Nuxt target
+   ** See https://nuxtjs.org/api/configuration-target
+   */
+  target: 'static',
+  /*
    ** Headers of the page
    */
   head: {
